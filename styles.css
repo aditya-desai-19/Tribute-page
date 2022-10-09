@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+/* 1. Change html font */
+html{
+  /* 1 rem = 62.5% */
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #c3f8ff;
+}
+
+.heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.img1 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: .5rem;
+}
+
+.middle-container {
+  background-color: #eef1ff;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.body-heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.desc {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  padding: 1.0rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+@media (max-width: 988px) {
+  html{
+    font-size: 55%;
+  }
+}
+
+@media (max-width: 768px) {
+  html{
+    font-size: 45%;
+  }
+}
